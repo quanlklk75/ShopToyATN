@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <style>
+            /* .header {
+   background-color: #F1F1F1;
+   text-align: center;
+   padding: 20px;
+ }*/
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: Arial;
+     padding: 10px;
+     background: #f2f2f2;
+ }
+ /* Header/Blog Title */
+ 
+ .header {
+     padding: 30px;
+     text-align: center;
+     background: #ffff99;
+ }
+ .header h1 {
+     font-size: 50px;
+ }
+ #menu ul {
+     list-style-type: none;
+     background-color: black;
+     text-align: center;
+ }
+ #menu ul li{
+     color: darkred;
+     display:inline-table;
+     width: 100px;
+     height: 40px;
+     line-height: 40px;
+     position: relative;
+ }
+ #menu ul li a {
+     color:white;
+     text-decoration: none;
+     display: block;
+     width:150px;
+     
+ }
+ #menu ul li a:hover{
+     background-color: darkred;
+     color: white;
+ }
+ #menu ul li > .subMenu{
+     display: none;
+     position: absolute;
+     width: 250px;
+ }
+ #main-content:after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #left-content{
+                float: left;
+                width: 33%;
+                background: rgba(255, 255, 255, 0.199);
+            }
+            #right-content {
+                float: left;
+                width: 33%;
+                background: rgba(255, 255, 255, 0.199);
+            }
+            #center-content{
+                float: left;
+                width: 32%;
+                background: rgba(255, 255, 255, 0.199);
+            }
+         </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/pc1.PNG">
+            <h1>Welcome to ATN Shop</h1>
+            <p>The world of Children toys</p>          
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a style="background-color: #009900;" href="http://localhost:8080/">Home</a> </li>
+                <li><a href="http://localhost:8080/products">Products</a></li>
+                <li><a href="http://localhost:8080/order">Order</a> </li>
+                <li><a href="http://localhost:8080/staffs">Staff</a></li>
+                <li><a href="http://localhost:8080/Login">Login</a></li>
+            </ul>
+        </div>
+        <div><center>
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/bdt_Onr-nno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center></div></br>
+        </div>
+        <div id="main-content">
+            <div id="left-content">
+                <div class="product">
+                    <center><img src="images/picHome1.jpg" alt="" width = "525x">
+                    <h3 class="product_name">Straw hat group</h3>
+                    <p class="product_price"> Price: 1900000 Belly</p></center>
+                </div>
+            </div>
+            <div id="center-content">
+                <div class="product">
+                    <center><img src="images/picHome2.jpg" alt="" width="525px">
+                    <h3 class="product_name">Thousand Sunny</h3>
+                    <p class="product_price">Price: 200000 Belly</p> </center>
+                </div>
+            </div>
+            <div id="right-content">
+                <div class="product">
+                    <center><img src="images/picHome3.jpg" alt="" width="525px">
+                    <h3 class="product_name">Luffy special model Figure </h3>
+                    <p class="product_price">Price: 9000000 Belly</p> </center>
+                </div>
+            </div>
+        </div>
+        <div>
+            <center>
+            <div class="footer"  style="background-color: black; height: 300px; color: white; ">
+                
+                <h2 ;">Follow ANT Shop.</h2>
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style ">
+                    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+                    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                    <a class="addthis_counter addthis_pill_style"></a>
+                </div>
+            
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e7280075406aa87"></script>
+                <!-- AddThis Button END -->
+                <p>&copy; Created by Nguyen Minh Quan</p>
+                <div class="icon">
+                    <a href="https://www.facebook.com/quansuaa"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"></a>
+                    <a href="#"><img src="https://img.icons8.com/doodle/48/000000/instagram-new.png"></a>
+                    <a href="#"><img src="https://img.icons8.com/doodle/48/000000/twitter--v3.png"></a>
+                    <a href="#"><img src="https://img.icons8.com/doodle/48/000000/tumblr.png"></a>
+                </div>
+                <div class="contact">
+                    <span><img src="https://img.icons8.com/dusk/64/000000/shake-phone.png"/>&nbsp; (+84) 777886322 | 0838333419 </span>
+                    <span><img src="https://img.icons8.com/nolan/64/gmail.png"/>&nbsp; minhquanlk07@gmail.com</span>
+                    <span><img src="https://img.icons8.com/nolan/64/address.png"/>&nbsp; 142-144 Phạm Phú Thứ, district 6, HoChiMinh City</span>
+            </div>
+            </div>
+            
+                
+            <script type="text/javascript">
+                function hide_float_right() {
+                    var content = document.getElementById('float_content_right');
+                    var hide = document.getElementById('hide_float_right');
+                    if (content.style.display == "none") { content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()">Tắt Quảng Cáo [X]</a>'; }
+                    else {
+                        content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Xem Quảng Cáo</a>';
+                    }
+                }
+            </script>
+            <style>
+                .float-ck {
+                    position: fixed;
+                    bottom: 0px;
+                    z-index: 9000
+                }
+        /*
+                * html .float-ck {
+                    position: absolute;
+                    bottom: auto;
+                    top: expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+                }*/
+        
+                #float_content_right {
+                    border: 1px solid #01AEF0;
+                }
+        
+                #hide_float_right {
+                    text-align: right;
+                    font-size: 11px;
+                }
+        
+                    #hide_float_right a {
+                        background: #01AEF0;
+                        padding: 2px 4px;
+                        color: #FFF;
+                    }
+            </style>
+            <div class="float-ck" style="right: 0px">
+                <div id="hide_float_right">
+                    <a href="javascript:hide_float_right()">Tắt Quảng Cáo [X]</a>
+                </div>
+                <div id="float_content_right">
+        
+                    <a href="https://www.durexvietnam.vn/san-pham/" target="_blank"><img src="https://media-services.digital-rb.com/s3/live-productcatalogue/sys-master/images/h77/h59/8853615575070/Performa%203.png?width=320&height=320" title="Asia Casino" /></a>
+        
+                </div>
+                
+            </center>
+        </div>
+    </body>
+    
+</html>
